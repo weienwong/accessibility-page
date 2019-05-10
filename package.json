@@ -1,0 +1,26 @@
+{
+  "name": "accessibility-page",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/weienwong/accessibility-page/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node testServer.js",
+    "start": "node server.js",
+    "stop": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weienwong/accessibility-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weienwong/accessibility-page/issues"
+  },
+  "homepage": "https://github.com/weienwong/accessibility-page#readme",
+  "dependencies": {
+    "axe-puppeteer": "^1.0.0",
+    "chalk": "^2.4.2",
+    "puppeteer": "^1.15.0"
+  }
+}
